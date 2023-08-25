@@ -16,4 +16,28 @@ public class DemoRestController {
         return "Hello World!";
 
     }
+
+//    @RestController
+//    @RequestMapping("/api")
+//    public class StudentRestController{
+//
+//        // define endpoint for "/students" - return list of students
+//
+//        @GetMapping("/students")
+//        public List<Student> getStudents(){
+//
+//            List<Student> theStudents = new ArrayList<>();
+//
+//            theStudents.add(new Student("Poornima", "Patel"));
+//
+//            return theStudents;
+//
+//        }
+//
+//
+//
+//
+//    }
+
+
 }

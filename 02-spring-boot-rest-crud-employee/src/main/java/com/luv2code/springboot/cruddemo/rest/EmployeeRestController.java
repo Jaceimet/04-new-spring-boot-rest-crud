@@ -2,6 +2,7 @@ package com.luv2code.springboot.cruddemo.rest;
 
 import com.luv2code.springboot.cruddemo.entity.Employee;
 import com.luv2code.springboot.cruddemo.service.EmployeeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,7 @@ public class EmployeeRestController {
     private EmployeeService employeeService;
 
     // inject employee directly (fast solution = constructor injection)
+    @Autowired
     public EmployeeRestController(EmployeeService theEmployeeService){
         employeeService = theEmployeeService;
     }

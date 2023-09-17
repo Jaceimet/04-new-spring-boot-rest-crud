@@ -13,7 +13,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     private EmployeeDAO employeeDAO;
 
     @Autowired
-    private EmployeeServiceImpl(EmployeeDAO theEmployeeDAO){
+    public EmployeeServiceImpl(EmployeeDAO theEmployeeDAO){
         employeeDAO = theEmployeeDAO;
     }
     @Override

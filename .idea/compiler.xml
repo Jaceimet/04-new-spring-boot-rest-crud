@@ -9,6 +9,7 @@
         <module name="01-spring-boot-rest-crud" />
         <module name="03-spring-boot-rest-crud-employee-with-spring-data-jpa" />
         <module name="02-spring-boot-rest-crud-employee" />
+        <module name="04-spring-boot-rest-crud-employee-with-spring-data-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="01-spring-boot-rest-crud" options="-parameters" />
       <module name="02-spring-boot-rest-crud-employee" options="-parameters" />
       <module name="03-spring-boot-rest-crud-employee-with-spring-data-jpa" options="-parameters" />
+      <module name="04-spring-boot-rest-crud-employee-with-spring-data-rest" options="-parameters" />
       <module name="crudemployee" options="-parameters" />
     </option>
   </component>

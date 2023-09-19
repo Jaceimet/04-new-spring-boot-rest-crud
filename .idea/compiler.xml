@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="01-spring-boot-rest-crud" />
+        <module name="03-spring-boot-rest-crud-employee-with-spring-data-jpa" />
         <module name="02-spring-boot-rest-crud-employee" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="01-spring-boot-rest-crud" options="-parameters" />
       <module name="02-spring-boot-rest-crud-employee" options="-parameters" />
+      <module name="03-spring-boot-rest-crud-employee-with-spring-data-jpa" options="-parameters" />
       <module name="crudemployee" options="-parameters" />
     </option>
   </component>
